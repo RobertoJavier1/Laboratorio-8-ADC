@@ -1,0 +1,56 @@
+cmsis-tools-environment:
+  version: 1.0.0
+  generated-by: arm.cmsis-csolution version 1.72.0
+  solution: ../Lab8_ADC.csolution.yml
+  environment:
+    path:
+      - c:/Users/rober/.vscode/extensions/arm.vscode-cmsis-debugger-1.8.0-win32-x64/tools/pyocd
+      - c:/Users/rober/.vscode/extensions/arm.cmsis-csolution-1.72.0-win32-x64/tools/cmsis-toolbox/bin
+      - c:/Users/rober/.vscode/extensions/arm.vscode-cmsis-debugger-1.8.0-win32-x64/tools/gdb/bin
+      - c:/Users/rober/.vscode/extensions/arm.cmsis-sds-0.13.0-win32-x64/tools
+    variables: {}
+  tools:
+    - name: pyOCD
+      version: 0.45.1
+      origin: built-in
+      provider:
+        type: vscode-extension
+        id: arm.vscode-cmsis-debugger
+      directory: c:/Users/rober/.vscode/extensions/arm.vscode-cmsis-debugger-1.8.0-win32-x64/tools/pyocd
+      manual: https://pyocd.io/docs/
+    - name: CMSIS-Toolbox
+      version: 2.15.0
+      origin: built-in
+      provider:
+        type: vscode-extension
+        id: arm.cmsis-csolution
+      directory: c:/Users/rober/.vscode/extensions/arm.cmsis-csolution-1.72.0-win32-x64/tools/cmsis-toolbox/bin
+      manual: https://open-cmsis-pack.github.io/cmsis-toolbox/
+    - name: Arm GNU GDB
+      version: 15.2.1
+      origin: built-in
+      provider:
+        type: vscode-extension
+        id: arm.vscode-cmsis-debugger
+      directory: c:/Users/rober/.vscode/extensions/arm.vscode-cmsis-debugger-1.8.0-win32-x64/tools/gdb/bin
+      manual: https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain
+    - name: sdsio-server
+      version: 3.0.0
+      origin: built-in
+      provider:
+        type: vscode-extension
+        id: arm.cmsis-sds
+      directory: c:/Users/rober/.vscode/extensions/arm.cmsis-sds-0.13.0-win32-x64/tools
+      manual: https://arm-software.github.io/SDS-Framework/main/utilities.html#sdsio-server
+    - name: tools.kitware.cmake\3.31.12\bin
+      origin: installed
+      provider:
+        type: vcpkg
+        id: arm.environment-manager
+      directory: c:/Users/rober/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.31.12
+    - name: tools.ninja.build.ninja\1.13.2
+      origin: installed
+      provider:
+        type: vcpkg
+        id: arm.environment-manager
+      directory: c:/Users/rober/.vcpkg/artifacts/2139c4c6/tools.ninja.build.ninja
