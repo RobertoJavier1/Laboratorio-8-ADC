@@ -93,3 +93,4 @@ uv2csolution.log
 **/__pycache__/
 sdsio.log
 
+.DS_Store
